@@ -1,0 +1,250 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: 
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+/*
+p:first-of-type {
+  font-size: 1.5em;
+}
+*/
+
+body.postid-381 {
+    background-color: #0F4C81;
+    color: white;
+}
+
+body.postid-381 h1, body.postid-381 h2, body.postid-381 h3, body.postid-381 h4, body.postid-381 h5 {
+	color: white;
+}
+
+ul.my-tags-list {
+    margin: 0;
+}
+
+ul.my-tags-list li {
+    display: inline;
+    padding: .2em .5em;
+    border: 1px solid #ccc;
+    margin: 0 .2em .2em 0;
+}
+
+.widget_tag_cloud .tagcloud a {
+    /* border: 1px solid #e2e2e2; */
+    padding: .5em .9em .5em 0;
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 14px;
+    margin-right: 4px;
+    line-height: 1.5;
+    transition: all .2s linear;
+    font-size: 16px !important;
+}
+
+@media screen and (min-width: 56.875em) {
+.col1 {
+float: left;
+width: 25%;
+} 
+.col2 {
+float: left;
+width: 50%;
+} 
+.col3 {
+float: left;
+width: 75%;
+} 
+.col4 {
+float: left;
+width: 100%;
+} 
+}
+
+.left {
+	padding: 0 20px 0 0;
+/* 	background-color: yellow; */
+}
+.right {
+	padding: 0 0 0 20px;
+/* 	background-color: lime; */
+}
+
+blockquote {
+    border-left: 1px solid #999;
+    margin: 40px 0;
+}
+
+blockquote p {
+	font-family: Tiempos Headline Bold;
+	font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.3em;
+}
+
+blockquote footer {
+	font-family: National Book;
+	font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.agi-outer {
+	padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto; 
+    max-width: 100%;
+    background-color: #eee;
+}
+
+.agi-inner {
+	margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    font-size: 36px;
+}
+
+h2.pt-cv-title {
+    font-family: "National Book";
+    color: #555;
+    font-size: 20px;
+}
+
+h2.pt-cv-title a {
+    color: #555;
+}
+
+h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, .site-title, .site-title a {
+    font-family: Tiempos Headline Bold;
+    font-weight: 700;
+}
+
+h1, h1.entry-title {
+    font-size: 35px;
+    font-size: 1.95rem !important;
+    font-family: Tiempos Headline Bold;
+}
+    
+.project-desc {
+    font-size: 2em;
+}
+
+h6 {
+	font-family: "National Book" !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    border-top: 1px solid black !important;
+    margin: 20px 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+ul.my-tags-list {
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+ul.my-tags-list li {
+    display: inline-block;
+    padding: .1em .5em .3em .5em;
+    border: 1px solid #ccc;
+    margin: 0 .3em .3em 0;
+    line-height: 1.3em;
+}
+
+ul.my-tags-list li a {
+    color: #999 !important;
+    font-size: 14px;
+}
+
+ul.my-tags-list li a:hover {
+    color: #000 !important;
+    font-size: 14px;
+}
+
+.widget_tag_cloud .tagcloud a {
+    display: inline-block;
+    padding: .1em .5em .3em .5em;
+    border: 1px solid #ccc;
+    margin: 0 .3em .5em 0;
+    line-height: 1.3em;
+    font-size: 14px;
+}
+
+.widget_tag_cloud .tagcloud a:hover {
+    display: inline-block;
+    padding: .1em .5em .3em .5em;
+    border: 1px solid #ccc;
+    margin: 0 .3em .5em 0;
+    line-height: 1.3em;
+    font-size: 14px;
+    color: white;
+}
+
+blockquote p {
+    font-family: Tiempos Headline Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.3em;
+    font-size: 2em !important;
+}
+
+cite {
+    font-size: 18px !important;
+    font-family: "National Book";
+    font-weight: 400;
+    font-style: normal;
+}
+
+div#n2-ss-2 .n2-font-daa257d61db4dc553d1d2bcb680833c5-hover {
+    font-family: "National Book";
+}
+
+p.caption {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.entry-content.clear {
+    padding: 20px 0;
+}
+
+.pt-cv-pinterest.pt-cv-shadow .pt-cv-pinmas {
+    border-top: 0px solid rgba(0,0,0,.1);
+    box-shadow: 0 0px 0px rgba(0,0,0,.15);
+}
+
+.pt-cv-ifield h2.pt-cv-title a {
+    font-family: "National Book";
+    font-weight: 400 !important;
+    font-size: 22px;
+}
+
+.page p {
+    font-size: 1.5em;
+}
+
+.ast-separate-container {
+    background-color: #fff;
+}
+
+pre {
+    background-color: #000;
+    color: #fff;
+}
