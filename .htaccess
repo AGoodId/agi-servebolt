@@ -1,0 +1,17 @@
+# BEGIN WordPress
+# Direktiven (raderna) mellan `BEGIN WordPress` och `END WordPress` genereras dynmiskt och bör endast ändras via WordPress-filter. Eventuella ändringar till direktiven mellan dessa markörer kommer att skrivas över.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+AuthUserFile /kunder/agoodi_4820/agoodi_6852/public/.htpasswd
+AuthType Basic
+AuthName "AGoodId 2020"
+Require valid-user
