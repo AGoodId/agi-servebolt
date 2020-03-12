@@ -1,7 +1,7 @@
 <?php
 /**
-Template Name: AGoodBlock
-Template Post Type: post, page, product, custom-type 
+* Template Name: AGoodBlock
+* Template Post Type: post, page, product, custom-type 
 */
 
 

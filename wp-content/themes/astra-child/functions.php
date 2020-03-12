@@ -62,3 +62,11 @@ if( function_exists('acf_add_options_page') ) {
 	)); */
 	
 }
+
+function add_custom_pt( $query ) {
+  if ( !is_admin() && $query->is_tag() || $query->is_category() && $query->is_main_query() ) {
+    $query->set( 'post_type', array( 'post', 'portfolio' ) );
+	}
+}
+add_action( 'pre_get_posts', 'add_custom_pt' );
+
