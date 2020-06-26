@@ -18,6 +18,12 @@ get_header(); ?>
 <?php // endif ?>
 
 	<div id="primary" <?php astra_primary_class(); ?>>
+
+		<?php astra_primary_content_top(); ?>
+
+		<?php astra_content_loop(); ?>
+
+		<?php astra_primary_content_bottom(); ?>
 		
 		<div class="wp-block-columns">
 		<div class="col2 left">
@@ -41,12 +47,6 @@ get_header(); ?>
 		</div>
 		
 		<?php include('agoodblock.php'); ?>
-
-		<?php astra_primary_content_top(); ?>
-
-		<?php astra_content_loop(); ?>
-
-		<?php astra_primary_content_bottom(); ?>
 		
 		<?php echo do_shortcode("[pt_view id='a0737abdjl' tag='GET_CURRENT']"); ?>
 
