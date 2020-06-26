@@ -1,3 +1,4 @@
+<h2>agoodblock.php</h2>
 <?php if( have_rows('flexible_content') ): ?>
 		
     <?php while( have_rows('flexible_content') ): the_row(); ?>
