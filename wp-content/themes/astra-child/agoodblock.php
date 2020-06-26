@@ -1,4 +1,11 @@
 <h2>agoodblock.php</h2>
+
+<?php astra_primary_content_top(); ?>
+
+<?php astra_content_loop(); ?>
+
+<?php astra_primary_content_bottom(); ?>
+
 <?php if( have_rows('flexible_content') ): ?>
 		
     <?php while( have_rows('flexible_content') ): the_row(); ?>
