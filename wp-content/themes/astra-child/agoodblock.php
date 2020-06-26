@@ -1,6 +1,3 @@
-<h2>agoodblock.php</h2>
-
-<?php astra_primary_content_top(); ?>
 
 <?php astra_content_loop(); ?>
 
