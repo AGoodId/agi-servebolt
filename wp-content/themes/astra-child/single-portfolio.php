@@ -20,7 +20,7 @@ get_header(); ?>
 	<div id="primary" <?php astra_primary_class(); ?>>
 		
 		<div class="wp-block-columns">
-		<div class="col2 left">
+		<div class="col3 left">
 			<p><?php the_field('uppdragsgivare'); ?></p>
 			<h1><?php single_post_title(); ?></h1>
 			<?php
@@ -44,10 +44,9 @@ get_header(); ?>
 				    );
 				endif;
 				?>
+				<p class="project-desc"><?php the_field('projektbeskrivning'); ?></p>
 		</div>
-		<div class="col2 right">
-			<p class="project-desc"><?php the_field('projektbeskrivning'); ?></p>
-		</div>
+
 		</div>
 		
 		<?php include('agoodblock.php'); ?>

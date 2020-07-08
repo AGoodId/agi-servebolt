@@ -248,3 +248,163 @@ pre {
     background-color: #000;
     color: #fff;
 }
+
+.entry-content.clear {
+    padding: 0px 0;
+}
+
+.pt-cv-tax-obs {
+    display: none;
+}
+
+h1, .entry-content h1 {
+    font-family: "Tiempos Headline Bold", "National Book";
+    font-size: 2.5em !important;
+    letter-spacing: -.005em;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.project-desc {
+    font-size: 1.5em !important;
+}
+
+h6, .entry-content h6 {
+    font-weight: 400;
+    font-family: National Book;
+    text-transform: inherit;
+    letter-spacing: 0;
+    font-size: 1em;
+        border-top: 1px solid #000 !important;
+}
+
+.wp-block-columns .col2 p {
+    margin-bottom: 16px !important;
+}
+
+h6 {
+    font-family: "National Book" !important;
+    font-weight: 400;
+    font-size: 14px;
+        /* text-transform: uppercase !important; */
+    line-height: 1.4;
+    border-top: 1px solid black !important;
+    margin: 20px 0;
+    padding: 6px 0;
+    text-transform: uppercase;
+    /* letter-spacing: .05em !important; */
+}
+
+figcaption {
+    font-size: 18px;
+}
+
+p {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-weight: 300 !important;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.main-header-bar-navigation {
+    text-transform: uppercase;
+}
+
+.main-header-menu {
+    font-size: 50px;
+}
+
+.main-header-menu a {
+    margin-bottom: 0px !important;
+    line-height: 1.3em;
+    font-size: 60px;
+}
+
+.main-header-menu ul {
+    font-size: 40px;
+    padding-left: 22px;
+}
+
+.ast-fullscreen-menu-enable.ast-header-break-point .main-header-menu .menu-item {
+  justify-content: left;
+}
+
+.menu-item-has-children .sub-menu {
+    display: block !important;
+}
+
+.ast-menu-toggle {
+    display: none !important;
+}
+
+.ast-header-break-point .main-header-bar .main-header-bar-navigation .sub-menu {
+    line-height: 1;
+}
+
+
+.menu-image-title-hide img {
+  max-width: 70%;
+}
+
+.menu-image-title-hide {
+    margin-left: -30px;
+    margin-top: -80px;
+}
+
+@media (max-width: 544px) {
+#pt-cv-view-ff2520ce7p .pt-cv-content-item {
+    padding: 5px !important;
+    }
+}
+
+
+@media (max-width: 544px) {
+.main-header-menu {
+    font-size: 30px;
+    }
+}
+
+.agoodpadding {
+    padding: 50px 50px 50px 50px !important;
+    vertical-align: top;
+}
+
+.main-header-menu {
+    font-size: 40px !important;
+    line-height: 2.5em !important;
+    font-weight: 400 !important;
+}
+
+.secondary .widget-title {
+    font-family: National book;
+    font-size: 18px;
+}
+
+.ghostkit-icon-box, ghostkit-icon-box-with-link { 
+    border: none !important;
+}
+
+.ast-container {
+    padding: 50px !important;
+    margin: 0;
+}
+
+@media (max-width: 544px) {
+.ast-container {
+    padding: 20px;
+    margin: 0;
+    }
+}
+
+.single-portfolio h1.ast-advanced-headers-title {
+    display: none;
+}
+
+/* startsidan */
+.page-id-974 #primary {
+    padding: 0 !important;
+    margin: 0 !important;
+}
