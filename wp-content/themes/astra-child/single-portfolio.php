@@ -21,8 +21,8 @@ get_header(); ?>
 		
 		<div class="wp-block-columns">
 		<div class="col2 left">
-			<h1><?php single_post_title(); ?></h1>
 			<p><?php the_field('uppdragsgivare'); ?></p>
+			<h1><?php single_post_title(); ?></h1>
 			<?php
 				if ( is_singular() ) :
 						$post = get_post();
@@ -34,10 +34,10 @@ get_header(); ?>
 										echo '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" alt="' . esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ) . '">' . esc_html( $category->name ) . '</a>';
 										echo '</li>';
 								}
-								echo '</ul>';
+								// echo '</ul>';
 						}
 				    echo get_the_tag_list(
-				        '<ul class="my-tags-list"><li>',
+				        '<li>',
 				        '</li><li>',
 				        '</li></ul>',
 				        get_queried_object_id()
