@@ -21,7 +21,7 @@ get_header(); ?>
 		
 		<div class="wp-block-columns">
 		<div class="col3 left">
-			<p><?php the_field('uppdragsgivare'); ?></p>
+			<p class="uppdragsgivare"><?php the_field('uppdragsgivare'); ?></p>
 			<h1><?php single_post_title(); ?></h1>
 			<?php
 				if ( is_singular() ) :
