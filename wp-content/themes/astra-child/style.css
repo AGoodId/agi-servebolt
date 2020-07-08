@@ -1,4 +1,7 @@
-/**
+/* @override 
+	https://www.agoodid.se/wp-content/themes/astra-child/style.css?* */
+
+
 Theme Name: Astra Child
 Author: Brainstorm Force
 Author URI: http://wpastra.com/about/
@@ -8,8 +11,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: astra-child
 Template: astra
-*/
-
+   
 /*
 p:first-of-type {
   font-size: 1.5em;
@@ -78,7 +80,8 @@ width: 100%;
 
 blockquote {
     border-left: 1px solid #999;
-    margin: 40px 0;
+    margin: 0px 0;
+	padding: 0 0 0 20px;
 }
 
 blockquote p {
@@ -278,6 +281,10 @@ h6, .entry-content h6 {
         border-top: 1px solid #000 !important;
 }
 
+.wp-block-columns {
+	margin-bottom: 40px !important;
+}
+
 .wp-block-columns .col2 p {
     margin-bottom: 16px !important;
 }
@@ -407,4 +414,12 @@ footer {
 .page-id-974 #primary {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+.ast-fullscreen-menu-enable.ast-header-break-point .main-header-menu .menu-item {
+    -js-display: inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left !important;
 }
