@@ -18,15 +18,6 @@ p:first-of-type {
 }
 */
 
-body.postid-381 {
-    background-color: #0F4C81;
-    color: white;
-}
-
-body.postid-381 h1, body.postid-381 h2, body.postid-381 h3, body.postid-381 h4, body.postid-381 h5 {
-	color: white;
-}
-
 ul.my-tags-list {
     margin: 0;
 }
@@ -395,7 +386,7 @@ footer {
 }
 
 .ast-container {
-    padding: 50px !important;
+    padding: 0 50px 50px 50px !important;
     margin: 0;
 }
 
