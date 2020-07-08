@@ -59,7 +59,7 @@ get_header(); ?>
 		
 		<h6><a href="/portfolio/">Portfolio</a></h6>
 		
-		<?php echo do_shortcode("[pt_view id='a0737abdjl' tag='GET_CURRENT']"); ?>
+		<?php echo do_shortcode("[pt_view id='a0737abdjl']"); ?>
 
 	</div><!-- #primary -->
 
