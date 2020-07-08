@@ -57,7 +57,7 @@ get_header(); ?>
 
 		<?php // astra_primary_content_bottom(); ?>
 		
-		<h6>Portfolio</h6>
+		<h6><a href="/portfolio/">Portfolio</a></h6>
 		
 		<?php echo do_shortcode("[pt_view id='a0737abdjl' tag='GET_CURRENT']"); ?>
 
