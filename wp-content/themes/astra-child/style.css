@@ -474,7 +474,6 @@ footer {
 .ast-container {
     padding: 0 !important;
     margin: 0 50px 50px 50px;
-	background-color: yellow !important;
 }
 
 @media (max-width: 544px) {
