@@ -162,7 +162,7 @@ blockquote {
 }
 
 blockquote p {
-	font-family: Tiempos Headline Bold;
+	font-family: TiemposHeadlineWeb-Bold;
 	font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -198,7 +198,7 @@ blockquote footer {
 }
 
 h2.pt-cv-title {
-    font-family: "National Book";
+    font-family: "National";
     color: #555;
     font-size: 20px;
 }
@@ -208,14 +208,14 @@ h2.pt-cv-title a {
 }
 
 h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, .site-title, .site-title a {
-    font-family: Tiempos Headline Bold;
+    font-family: TiemposHeadlineWeb-Bold;
     font-weight: 700;
 }
 
 h1, h1.entry-title {
     font-size: 35px;
     font-size: 1.95rem !important;
-    font-family: Tiempos Headline Bold;
+    font-family: TiemposHeadlineWeb-Bold;
 }
     
 .project-desc {
@@ -277,7 +277,7 @@ ul.my-tags-list li a:hover {
 }
 
 blockquote p {
-    font-family: Tiempos Headline Bold;
+    font-family: TiemposHeadlineWeb-Bold;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -287,13 +287,13 @@ blockquote p {
 
 cite {
     font-size: 18px !important;
-    font-family: "National Book";
+    font-family: "National";
     font-weight: 400;
     font-style: normal;
 }
 
 div#n2-ss-2 .n2-font-daa257d61db4dc553d1d2bcb680833c5-hover {
-    font-family: "National Book";
+    font-family: "National";
 }
 
 p.caption {
@@ -311,7 +311,7 @@ p.caption {
 }
 
 .pt-cv-ifield h2.pt-cv-title a {
-    font-family: "National Book";
+    font-family: "National";
     font-weight: 400 !important;
     font-size: 22px;
 }
@@ -338,7 +338,7 @@ pre {
 }
 
 h1, .entry-content h1 {
-    font-family: "Tiempos Headline Bold", "National Book";
+    font-family: TiemposHeadlineWeb-Bold, "National";
     font-size: 2.5em !important;
     letter-spacing: -.005em;
     margin-bottom: 16px;
@@ -351,7 +351,7 @@ h1, .entry-content h1 {
 
 h6, .entry-content h6 {
     font-weight: 400;
-    font-family: National Book;
+    font-family: National;
     text-transform: inherit;
     letter-spacing: 0;
     font-size: 1em;
@@ -367,7 +367,7 @@ h6, .entry-content h6 {
 }
 
 h6 {
-    font-family: "National Book" !important;
+    font-family: "National" !important;
     font-weight: 400;
     font-size: 14px;
         /* text-transform: uppercase !important; */
@@ -386,7 +386,7 @@ figcaption {
 p {
     font-size: 1.6em;
     line-height: 1.2em;
-    font-weight: 300 !important;
+    font-weight: 400 !important;
 }
 
 footer {
@@ -463,7 +463,7 @@ footer {
 }
 
 .secondary .widget-title {
-    font-family: National book;
+    font-family: National;
     font-size: 18px;
 }
 
