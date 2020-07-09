@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: AGoodBlock
+* Template Name: AGoodBlock + Gutenberg
 * Template Post Type: post, page, product, custom-type 
 */
 
