@@ -198,7 +198,7 @@ blockquote footer {
 }
 
 h2.pt-cv-title {
-    font-family: "National";
+    font-family: "National Book";
     color: #555;
     font-size: 20px;
 }
@@ -208,14 +208,14 @@ h2.pt-cv-title a {
 }
 
 h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, .site-title, .site-title a {
-    font-family: TiemposHeadlineWeb-Bold;
+    font-family: "Tiempos Headline Bold";
     font-weight: 700;
 }
 
 h1, h1.entry-title {
     font-size: 35px;
     font-size: 1.95rem !important;
-    font-family: TiemposHeadlineWeb-Bold;
+    font-family: "Tiempos Headline Bold";
 }
     
 .project-desc {
@@ -277,7 +277,7 @@ ul.my-tags-list li a:hover {
 }
 
 blockquote p {
-    font-family: TiemposHeadlineWeb-Bold;
+    font-family: "Tiempos Headline Bold";
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -287,13 +287,13 @@ blockquote p {
 
 cite {
     font-size: 18px !important;
-    font-family: "National";
+    font-family: "National Book";
     font-weight: 400;
     font-style: normal;
 }
 
 div#n2-ss-2 .n2-font-daa257d61db4dc553d1d2bcb680833c5-hover {
-    font-family: "National";
+    font-family: "National Book";
 }
 
 p.caption {
@@ -311,7 +311,7 @@ p.caption {
 }
 
 .pt-cv-ifield h2.pt-cv-title a {
-    font-family: "National";
+    font-family: "National Book";
     font-weight: 400 !important;
     font-size: 22px;
 }
@@ -338,7 +338,7 @@ pre {
 }
 
 h1, .entry-content h1 {
-    font-family: TiemposHeadlineWeb-Bold, "National";
+    font-family: "Tiempos Headline Bold", "National Book";
     font-size: 2.5em !important;
     letter-spacing: -.005em;
     margin-bottom: 16px;
@@ -367,7 +367,7 @@ h6, .entry-content h6 {
 }
 
 h6 {
-    font-family: "National" !important;
+    font-family: "National Book" !important;
     font-weight: 400;
     font-size: 14px;
         /* text-transform: uppercase !important; */

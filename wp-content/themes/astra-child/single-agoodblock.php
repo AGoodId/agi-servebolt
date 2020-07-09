@@ -40,7 +40,6 @@ get_header(); ?>
 										echo '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" alt="' . esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ) . '">' . esc_html( $category->name ) . '</a>';
 										echo '</li>';
 								}
-								// echo '</ul>';
 						}
 				    echo get_the_tag_list(
 				        '<li>',
@@ -58,7 +57,7 @@ get_header(); ?>
 		
 		<h6><a href="/portfolio/">Portfolio</a></h6>
 		
-		<?php echo do_shortcode("[pt_view id='a0737abdjl' cat='Portfolio']"); ?>
+		<?php echo do_shortcode("[pt_view id='a0737abdjl' cat='Portfolio']"); ?> 
 
 	</div><!-- #primary -->
 
