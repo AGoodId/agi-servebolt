@@ -29,26 +29,36 @@ get_header(); ?>
 		<div class="col2 left">
 			<h1><?php single_post_title(); ?></h1>
 			
-			<p>Uppdragsgivare: <?php the_field('uppdragsgivare'); ?></p>
 			<?php
 				if ( is_singular() ) :
+						$post = get_post();
+						$categories = get_the_category($post->ID);
+						if ( ! empty( $categories ) ) {
+							  echo '<ul class="my-tags-list">';
+								foreach( $categories as $category ) {
+										echo '<li>';
+										echo '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" alt="' . esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ) . '">' . esc_html( $category->name ) . '</a>';
+										echo '</li>';
+								}
+								// echo '</ul>';
+						}
 				    echo get_the_tag_list(
-				        '<ul class="my-tags-list"><li>',
+				        '<li>',
 				        '</li><li>',
 				        '</li></ul>',
 				        get_queried_object_id()
 				    );
 				endif;
 				?>
-		</div>
-		<div class="col2 right">
-			<?php the_field('projektbeskrivning'); ?>
+				<p class="project-desc"><?php the_field('projektbeskrivning'); ?></p>
 		</div>
 		</div>
 		
 		<?php include('agoodblock.php'); ?>
 		
-		<?php echo do_shortcode("[pt_view id='a0737abdjl' tag='GET_CURRENT']"); ?>
+		<h6><a href="/portfolio/">Portfolio</a></h6>
+		
+		<?php echo do_shortcode("[pt_view id='a0737abdjl' cat='Portfolio']"); ?>
 
 	</div><!-- #primary -->
 
