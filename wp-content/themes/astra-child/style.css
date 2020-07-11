@@ -90,7 +90,7 @@ p:first-of-type {
    src: url('../fonts/national-web-book.eot?#iefix') format('embedded-opentype'),
         url('../fonts/national-web-book.woff2') format('woff2'),
         url('../fonts/national-web-book.woff') format('woff');
-   font-weight: 400;
+   font-weight: 300;
    font-style: normal;
 }
  
@@ -178,7 +178,7 @@ blockquote p {
 blockquote footer {
 	font-family: National Book;
 	font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1rem;
     line-height: 1.4;
 }
@@ -230,7 +230,7 @@ h1, h1.entry-title {
 
 h6 {
 	font-family: "National Book" !important;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
     line-height: 1.4;
     border-top: 1px solid black !important;
@@ -294,7 +294,7 @@ blockquote p {
 cite {
     font-size: 18px !important;
     font-family: "National Book";
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -318,7 +318,7 @@ p.caption {
 
 .pt-cv-ifield h2.pt-cv-title a {
     font-family: "National Book";
-    font-weight: 400 !important;
+    font-weight: 300 !important;
     font-size: 22px;
 }
 
@@ -356,7 +356,7 @@ h1, .entry-content h1 {
 }
 
 h6, .entry-content h6 {
-    font-weight: 400;
+    font-weight: 300;
     font-family: National;
     text-transform: inherit;
     letter-spacing: 0;
@@ -374,7 +374,7 @@ h6, .entry-content h6 {
 
 h6 {
     font-family: "National Book" !important;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
         /* text-transform: uppercase !important; */
     line-height: 1.4;
@@ -392,7 +392,7 @@ figcaption {
 p {
     font-size: 1.6em;
     line-height: 1.2em;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
 }
 
 footer {
@@ -465,7 +465,7 @@ footer {
 .main-header-menu {
     font-size: 40px !important;
     line-height: 2.5em !important;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
 }
 
 .secondary .widget-title {
