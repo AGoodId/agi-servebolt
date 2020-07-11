@@ -534,3 +534,43 @@ p.uppdragsgivare {
 .portfolio-template-default .ast-merged-advanced-header.ast-full-advanced-header {
     height: 75vh !important;
 }
+
+
+/* Background image - scale down */
+
+@media (max-width: 980px) {
+.portfolio-template-default .ast-merged-advanced-header.ast-full-advanced-header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45vh !important;
+    }
+}
+
+@media (max-width: 480px) {
+.portfolio-template-default .ast-merged-advanced-header.ast-full-advanced-header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 39vh !important;
+    }
+}
+
+.ast-fullscreen-menu-enable.ast-header-break-point .main-header-bar-navigation .close {
+    color: #000000;
+    padding: 50px;
+}
+
+h4.pt-cv-title {
+    margin-bottom: -6px !important;
+}
+
+.postid-733 .site-title a, .postid-655 .site-title a {
+    color: white !important;
+}
+
+.fp-viewing-section1 .site-title a {
+    color: #000 !important;
+}
+
+.fp-viewing-section1 .menu-toggle-icon {
+    color: pink !important;
+}
