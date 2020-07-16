@@ -23,6 +23,10 @@ get_header(); ?>
 		<div class="col3 left">
 			<p class="uppdragsgivare"><?php the_field('uppdragsgivare'); ?></p>
 			<h1><?php single_post_title(); ?></h1>
+			
+				<p class="project-desc"><?php the_field('projektbeskrivning'); ?></p>
+		</div>
+		<div class="col1 right">
 			<?php
 				if ( is_singular() ) :
 						$post = get_post();
@@ -44,7 +48,6 @@ get_header(); ?>
 				    );
 				endif;
 				?>
-				<p class="project-desc"><?php the_field('projektbeskrivning'); ?></p>
 		</div>
 
 		</div>
