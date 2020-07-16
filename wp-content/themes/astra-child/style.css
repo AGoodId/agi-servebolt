@@ -574,3 +574,19 @@ h4.pt-cv-title {
 .fp-viewing-section1 .menu-toggle-icon {
     color: #000 !important;
 }
+
+@media (max-width: 980px) {
+.portfolio-template-default .ast-merged-advanced-header.ast-full-advanced-header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45vh !important;
+    }
+}
+
+@media (max-width: 480px) {
+.portfolio-template-default .ast-merged-advanced-header.ast-full-advanced-header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 39vh !important;
+    }
+}
