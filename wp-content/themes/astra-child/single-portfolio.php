@@ -26,7 +26,7 @@ get_header(); ?>
 			
 				<p class="project-desc"><?php the_field('projektbeskrivning'); ?></p>
 		</div>
-		<div class="col1 right">
+		<!-- <div class="col1 right">
 			<?php
 				if ( is_singular() ) :
 						$post = get_post();
@@ -48,7 +48,7 @@ get_header(); ?>
 				    );
 				endif;
 				?>
-		</div> 
+		</div> -->
 
 		</div>
 		
